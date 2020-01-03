@@ -21,7 +21,7 @@ export default {
     }
   },
   async mounted(){
-    const response = await axios.get('https://www.reddit.com/r/marvelstudios.json')
+    const response = await axios.get('https://www.reddit.com/r/Nude_Selfie.json')
     this.posts = response.data.data.children;
     console.log(this.posts);
     
